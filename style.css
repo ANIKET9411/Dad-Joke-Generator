@@ -1,0 +1,29 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+    margin: 0;
+    width: 100vw;
+    height: 100vh;
+    background: linear-gradient(90deg,#00ffc9,#92cfce);
+}
+.container{
+    width:30%;
+    /* height: 20%; */
+    border: 2px solid black;
+    padding:5% 15%;
+    text-align: center;
+    background-color: #fff;
+    border-radius: 15px;
+}
+.jokes{
+    margin: 20px;
+    font-size: 20px;
+}
+button{
+    padding:20px 10px;
+    border-radius: 15px;
+    font-weight: bold;
+    background-color: #00ffc9;
+}
